@@ -15,5 +15,15 @@ namespace Week3.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult ContactUs(GetInTouch contacts)
+        {
+            return View(contacts);
+        }
     }
 }
