@@ -36,10 +36,11 @@
 </fieldset>
 @if (Model != null)
 {
-    <h1>"Message sent"</h1>
+    <h1>Message sent</h1>
     <h3>@Model.Title</h3>
-    <h4> Contact Name: @Model.Name having Email-address: @Model.Email at @Model.Datecreated</h4>
-    <h4>Contact Number: @Model.Contact</h4>
-    <p>Message from Customer:@Model.Message  </p>
+    <h3> Contact Name: @Model.Name</h3><h3> Customer Email-address: @Model.Email </h3>
+    <h3>Date of Contact:@Model.Datecreated</h3>
+    <h3>Contact Number: @Model.Contact</h3>
+    <h3>Message from Customer:@Model.Message  </h3>
 }
 
